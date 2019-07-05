@@ -1,9 +1,9 @@
-#inlcude <cstdio>
-#inlcude "sum.h"
+#include <cstdio>
+#include "sum.h"
 
 int main(){
 	int n;
 	scanf("%d",&n);
 	int s = sum(n);
-	pirntf("sum = %d\n",s);
+	printf("sum = %d\n",s);
 }
